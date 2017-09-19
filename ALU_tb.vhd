@@ -1,16 +1,16 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-entity ULA_TB is
+entity ALU_TB is
 	generic
 	(
 		n	: integer  :=	4  -- Quantidade de bits do vetor
 	);
-end ULA_TB;
+end ALU_TB;
 
 
 
-architecture testbench of ULA_TB is
+architecture testbench of ALU_TB is
 		-- Input ports
 	signal   CONTROL : std_logic_vector (3 downto 0);
 	signal	SRC1	: std_logic_vector (n-1 downto 0);
@@ -22,7 +22,7 @@ architecture testbench of ULA_TB is
 
 begin
 
-	duv: entity work.ULA
+	duv: entity work.ALU
 	
 	generic map (
 	n => n
