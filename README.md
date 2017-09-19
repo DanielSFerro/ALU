@@ -27,11 +27,11 @@ Used the programs Quartus 13.0 sp1 and ModelSim_Altera 10.1d.
 
 For this project, the ALU is going to do few os operations listed below:
 1. Arithmetic:
-   - Add
-   - Subtract
+   - Add (CONTROL = "0010")
+   - Subtract (CONTROL = "0110")
 2. Logic:
-   - AND
-   - OR
-   - NOR
+   - AND (CONTROL = "0000")
+   - OR (CONTROL = "0001")
+   - NOR (CONTROL = "1100")
 3. Others:
-   - Compare which is the lowest
+   - Compare which is the lowest (CONTROL = "0111")
