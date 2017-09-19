@@ -1,2 +1,2 @@
 # ALU
-Arithmetic Logic Unit
+Project in VHDL of Arithmetic Logic Unit
